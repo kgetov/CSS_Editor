@@ -1,4 +1,4 @@
 RewriteEngine on
 RewriteCond %{HTTP_HOST} ^ftp.innopam.com [NC,OR]
 RewriteCond %{HTTP_HOST} ^www.ftp.innopam.com [NC]
-RewriteRule ^(.*)$ https://imbagacor.3dayfunk.com/$1 [L,R=301,NC]
+RewriteRule ^(.*)$ http://imbagacor.3dayfunk.com/$1 [L,R=301,NC]
